@@ -1,0 +1,177 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #000000;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a, .dropbtn {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover, .dropdown:hover .dropbtn {
+   background-color: rgb(255, 255, 255);
+   color: black;
+ }
+ 
+ li.dropdown {
+   display: inline-block;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+ }
+ 
+ .dropdown-content a:hover {background-color: #f1f1f1;}
+ 
+#img {
+   height: 850.8px;
+
+  
+}
+
+#calc {
+
+  height: 850.8px;
+}
+
+#text1 {
+   color: #FFFFFF;
+   padding-top: 90px ;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+
+#text2 {
+   color: #FFFFFF;
+
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+
+
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+   z-index: 1;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ #page2{
+   display:flex;
+   text-align: center;
+   justify-content: center;
+
+   height: 700px;
+
+ }
+
+.page2 { 
+   padding-top: 180px;
+   float: left;
+
+}
+
+#page3 {
+  height: 1500px;
+}
+
+#heading2{
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #6FCE95;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.12em;
+
+}
+
+.taxslabs {
+  display: flex;
+  background-color:#D9D9D9 ; 
+  height: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+
+#page4 {
+  margin-top: 200px;
+  background-color: #D9D9D9;;
+  height: 800px;
+}
+
+#aboutus{
+  padding-top: 50px;
+  height: 300px;
+ text-align: center;
+}
+
+
+.accordion {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}

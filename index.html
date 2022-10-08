@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tax calculator</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+</head>
+  
+
+
+<body>
+  <div>
+    <img src="calcimg.png" alt="" style="float: left; height: 20%; width: 50px;">
+    <ul>
+      <li style="float:right"><a href="#calc">Calculator</a></li>
+      <li style="float:right"><a href="#tax">Tax slabs</a></li>
+      <li style="float:right"><a href="#contact">Contact us</a></li>
+      <li style="float:right"><a href="#aboutus">About us</a></li>
+    </ul>
+  
+  </div>
+
+    
+  <div  id='calc'  style="background-image: url('bgimg1.jpg');" id="img">
+
+    <div id="text1">
+      <h1>TAX CALCULATOR PAKISTAN 2022-2023</h1>
+    </div>
+    <div id="text2">
+      <p>This is latest tax calculator as per 2022-2023 budget presented by Government Of Pakistan.</p>
+    </div>
+
+    <div style="display: flex; justify-content:center; ">
+      <div style="display: inline-block; text-align: center;">
+        <div >
+            <form action="" method="get" id="saad" > 
+              <input type="number" NAME="inputbox" placeholder="Enter Amount" id="income1">
+              <div  >
+                <button type="submit"; id="button1" Value="Click" onClick="testResults(this.form)">Calculate</button>
+                </div>
+            </form>
+    
+              <select class="bg">
+                  <option>Duration</option>
+                  <option>Monthly</option>
+                  <option>Anually</option>
+              </select>
+        </div>
+
+        
+      </div>
+    </div>
+    
+    <div id="page2">
+      <div class="page2" style=" width: 585px">
+          
+        <div >
+          <h4 style="padding-bottom: 50px;">Deductible Allowances</h4>
+        </div>
+
+        <div >
+            <button class="button" style="padding-bottom: 20px ; margin-bottom: 30px; margin-right: 50%; margin-left: 37%; width: 150px;">Zakat</button>
+            <button class="button" style="padding-bottom: 20px ; margin-bottom: 30px; margin-right: 50%; margin-left: 37%; width: 150px;">Education</button>
+            <button class="button" style="padding-bottom: 20px ; margin-bottom: 30px; margin-right: 50%; margin-left: 37%; width: 150px;">Profit on Debt</button>
+        </div>
+
+
+      </div>
+      <div class="page2" style="float:left; width: 595px">
+        <div style="padding-top: 80px;">
+          <div >
+            <input type="text" placeholder="Enter Amount" style="padding-bottom: 20px ; margin-bottom: 30px;" id="zakat">
+          </div>
+          <div >
+            <input type="text" placeholder="Enter Amount" style="padding-bottom: 20px ; margin-bottom: 30px;">
+          </div>
+          <div >
+            <input type="text" placeholder="Enter Amount" style="padding-bottom: 20px ; margin-bottom: 30px;">
+          </div>
+        </div>  
+
+      </div>      
+    </div>
+
+
+
+
+
+
+   
+
+
+<div style="display: flex; justify-content:center; margin-top: -120px; ">
+  
+</div>
+    
+  </div>
+   
+  <div id="tax">
+    <div id="page2">
+      <div class="page2" style=" width: 585px">
+        <img src="contract.png" alt="" style="height: 200px;">
+        <h2 style="padding-top: 30px;" > Basic Concepts of Income Tax</h2><br><br>
+        <p>
+          You can find the fundamentals of income tax including taxable and none taxable sources. This brochure is to assist taxpayers from Goverment Of Pakistan.</p>
+
+      </div>
+      <div class="page2" style="float:left; width: 595px">
+        <img src="book.png" alt="" style="height: 200px;">
+        <h2 style="padding-top: 30px;"> Budget Document(PDF)</h2><br><br>
+        <p>You can find Federal Budget in Brief 2022-23. The fiscal year 2022-23 along with budget estimates and revised estimates for the fiscal year 2022-23from Goverment Of Pakistan</p>
+      </div>      
+    </div>
+  </div>
+
+  <div id="page3">
+    <div id="heading2">
+      <h1 >Salary Tax Slabs According to Budget 2022-23</h1>
+    </div>  
+
+    <div style=" height: 140px;">
+
+    </div>
+
+    <button class="accordion" >Salary income is under PKR 600,000</button>
+<div class="panel">
+  <p>If the annual salary income does not exceed PKR. 600,000 then the rate of the income tax is 0%</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 600,000 but is under PKR 1.2 Million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR. 600,000 but does not exceed PKR. 1.2 million then the rate of income tax is 2.5% of the amount exceeding PKR. 600,000.</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 600,000 but is under PKR 1.2 Million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR. 600,000 but does not exceed PKR. 1.2 million then the rate of income tax is 2.5% of the amount exceeding PKR. 600,000.</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 2.4 Million but is under PKR 3.6 Million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR. 2.4 million but does not exceed PKR. 3.6 million then the rate of income tax is flat PKR 165,000 + 20% of the amount exceeding PKR. 2.4 million</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 2.4 Million but is under PKR 3.6 Million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR. 2.4 million but does not exceed PKR. 3.6 million then the rate of income tax is flat PKR 165,000 + 20% of the amount exceeding PKR. 2.4 million</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 6 Million but is under PKR 12 Million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR 6 Million but does not exceed PKR. 12 million then the rate of income tax is flat PKR 1.005 million + 32.5% of the amount exceeding PKR. 6 million</p>
+</div>
+
+<button class="accordion">Salary income exceeds PKR 12 million</button>
+<div class="panel">
+  <p>If the annual salary income exceeds PKR. 12 million then the rate of income tax is flat PKR 2.955 million + 35% of the amount exceeding PKR. 12 million</p>
+</div>
+
+    
+
+    <div id="heading2">
+      <h1 style="margin-bottom: 100px;">Contact us</h1>
+    </div>
+    
+  </div>
+
+  <div id="page4">
+    <div style="padding-top: 50px; padding-left: 50px;">
+      <h6><b>Submit your tax queries</b><br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h6>
+    </div>
+
+    <div id="contact">
+      <div id="page2">
+        <div class="page2" style=" width: 585px">
+         
+          <h4 style="padding-top: 30px;" > personal details</h4><br><br>
+          
+          <form >
+            <input type="text" id="fname" name="fname" value="Full name" style="height: 100px; padding-bottom:60px; width: 340px; margin-bottom: 30px;"><br>
+            <input type="text" id="email" name="email" value="Email" style="height: 100px; padding-bottom:60px; width: 340px; "><br><br>
+            <input type="submit" value="Ask Now" style="background-color: #6FCE95;">
+          </form>
+        </div>
+        <div class="page2" style="float:left; width: 595px">
+          
+          <h4 style="padding-top: 30px;"> message</h4><br><br>
+          
+          <form >
+            <input type="text" id="message" name="message" value="message" style="height: 230px; padding-bottom:187px; width: 340px;"><br>
+            
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div id="aboutus">
+      <div>
+        <h1 style="color:#6FCE95;">about us</h1>
+      </div>
+      <br><br><br>
+      <div>
+        <h6>We develop high-quality websites, apps and desktop apps. We also provide Cloud and DevOps support for your software/company. Our aim is to bring your software concept from development to cloud. We are fully agile so we present your software and take feedback from you regularly. We provide best after service support to our clients.</h6>
+      </div>
+  </div>
+
+  <div style="background-color: black; height: 100px">
+    <div style="height: 50px;">
+
+    </div>
+    <div style="text-align: center; color: white;">
+      <p>Designed and Developed by Go Dev ©</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
